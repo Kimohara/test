@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>form f</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    h1 {
+        margin-top: 150px;
+    }
+    p {
+
+        width: 300px;
+        margin-top: 0 
+    } 
+    form{
+         margin-top: 150px;
+         margin-left:100px;
+    }
+    input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: black;
+}
+input:focus {
+  border-color: green
+}
+textarea{
+ outline: 0;
+  border-width: 0 0 2px;
+  border-color: black;
+}
+textarea:focus{
+     border-color: black;
+}
+body{
+    background-color:silver;
+}
+
+    
+</style>
+</head>
+<body>
+
+<div class="container" style="background-color:white;">
+    <div class="row">
+        <a href="insert.php" class="btn btn-warning">About product</a>
+        <div class="col-md-6">
+            
+<form method="post" action="">
+    <h2>Fill the form.</h2>
+            <h2>It's easy.</h2>
+    <input type="text" name="firstname" placeholder="first name">&nbsp;&nbsp;&nbsp;<input type="text" name="lastname" placeholder="last name">
+    <br><br>
+    <input type="text" name="email" placeholder="email">
+    <br>
+    <p>Breafly tell us about you project and your current goals.
+        how can we help you?
+       </p> 
+    <textarea name="message">
+
+    </textarea>
+    <br>
+    <button type="submit" class="btn btn-success">send message</button> 
+</form>
+    
+</div>
+<div class="col-md-6">
+    <h1>Need</h1>
+    <h2>presentation?</h2>
+    <p>you like what we do,but you need to
+        demoanstrate your team as well. Easl!
+        Directly download, print or share the
+        link to a PDF with your colleagues.
+    </p>
+    <i style="font-size:24px" class="fa">&#xf019;</i>&nbsp;Company profile.pdf(32 mb.)
+
+</div>
+</div>
+</div>
+</body>
+</html>  
